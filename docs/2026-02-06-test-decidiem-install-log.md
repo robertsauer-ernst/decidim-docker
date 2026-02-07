@@ -28,8 +28,8 @@ Ubuntu 24.04 frisch installiert → Docker + Caddy + Decidim via Docker Compose
 ### Zugangsdaten (Phase 1)
 | Bereich | URL | Email | Passwort |
 |---------|-----|-------|----------|
-| System-Panel | /system | admin@test.decidiem.de | literal:<REDACTED> |
-| Frontend-Admin | /admin | admin@test.decidiem.de | literal:<REDACTED> |
+| System-Panel | /system | admin@test.decidiem.de | <REDACTED> |
+| Frontend-Admin | /admin | admin@test.decidiem.de | <REDACTED> |
 
 ---
 
@@ -78,8 +78,8 @@ Eigenes Dockerfile mit Decidim 0.31.0 von Source bauen
 ### Zugangsdaten (Phase 2 – final)
 | Bereich | URL | Email | Passwort |
 |---------|-----|-------|----------|
-| System-Panel | /system | admin@test.decidiem.de | literal:<REDACTED> |
-| Org-Admin | /admin | admin@test.decidiem.de | literal:<REDACTED> |
+| System-Panel | /system | admin@test.decidiem.de | <REDACTED> |
+| Org-Admin | /admin | admin@test.decidiem.de | <REDACTED> |
 
 ---
 

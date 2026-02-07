@@ -82,8 +82,8 @@ SCHRITT 6: System-Admin erstellen
   docker exec decidim-app bundle exec rails runner "
     Decidim::System::Admin.create!(
       email: 'system.test@decidiem.de',
-      password: 'literal:<REDACTED>',
-      password_confirmation: 'literal:<REDACTED>'
+      password: '<REDACTED>',
+      password_confirmation: '<REDACTED>'
     )
   "
 
@@ -115,8 +115,8 @@ SCHRITT 8: Org-Admin erstellen (Passwort mind. 15 Zeichen!)
       email: 'admin@test.decidiem.de',
       name: 'Admin',
       nickname: 'admin',
-      password: 'literal:<REDACTED>',
-      password_confirmation: 'literal:<REDACTED>',
+      password: '<REDACTED>',
+      password_confirmation: '<REDACTED>',
       organization: org,
       confirmed_at: Time.current,
       locale: 'en',
@@ -134,8 +134,8 @@ SCHRITT 9: Verifizieren
 - decidim-custom:0.31.0 Image gebaut
 - 3 Container laufen (app, db, redis)
 - https://test.decidiem.de zeigt Decidim mit grünen Buttons
-- /system Login: system.test@decidiem.de / literal:<REDACTED>
-- /admin Login: admin@test.decidiem.de / literal:<REDACTED>
+- /system Login: system.test@decidiem.de / <REDACTED>
+- /admin Login: admin@test.decidiem.de / <REDACTED>
 ```
 
 ---
